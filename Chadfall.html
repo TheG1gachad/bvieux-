@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site officiel du Chadistan : découvrez nos réseaux sociaux, explorez nos produits et vérifiez votre nationalité.">
+    <title>Chadistan</title>
+    <link rel="icon" href="images/forme.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+</head>
+<style>
+    /* Styles du conteneur de jeu */
+    #gameContainer {
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        position: relative;
+        background-color: transparent; /* Fond invisible */
+    }
+
+    #gameCanvas {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background: transparent;
+    }
+
+</style>
+<body>
+    <header class="progress-header">
+        <div class="menu-toggle" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="header-content">
+            <h1 class="header-title">CHADISTAN</h1>
+            <div class="progress-container">
+                <div class="progress-indicator"></div>
+            </div>
+            <nav class="nav-links" id="nav-links">
+            <ul>
+                <li><a class="bouton-menu" href="index.html">Accueil</a></li>
+                <li><a class="bouton-menu" href="contact.html">Nous contacter</a></li>
+                <li><a class="bouton-menu" href="aboutus.html">À propos</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <div class="background">
+        <img src="images/forme.png" class="circle1">
+        <img src="images/forme.png" class="circle2">
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <div class="circle3"></div>
+        <div class="circle4"></div>
+        <div class="circle5"></div>
+    </div>
+    
+    <canvas id="gameCanvas"></canvas>
+    <script src="game2.js"></script>
+</body>
+</html>

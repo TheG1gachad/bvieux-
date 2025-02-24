@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site officiel du Chadistan : découvrez nos réseaux sociaux, explorez nos produits et vérifiez votre nationalité.">
+    <title>Chadistan</title>
+    <link rel="icon" href="images/forme.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="progress-header">
+        <div class="menu-toggle" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="header-content">
+            <h1 class="header-title">CHADISTAN</h1>
+            <div class="progress-container">
+                <div class="progress-indicator"></div>
+            </div>
+            <nav class="nav-links" id="nav-links">
+            <ul>
+                <li><a class="bouton-menu" href="index.html">Accueil</a></li>
+                <li><a class="bouton-menu" href="contact.html">Nous contacter</a></li>
+                <li><a class="bouton-menu" href="aboutus.html">À propos</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <div class="background">
+        <img src="images/forme.png" class="circle1">
+        <img src="images/forme.png" class="circle2">
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <div class="circle3"></div>
+        <div class="circle4"></div>
+        <div class="circle5"></div>
+    </div>
+    
+    <div class="content">
+        <img src="images/logo3D-chadistan.png" alt="Logo Chadistan 3D" class="responsive-image" id="discord-toggle">       
+        <h1 class="title" id="main-title">CHADISTAN</h1>
+        <h2 class="subtitle" id="main-subtitle">Le Chadistan ne se contente pas d’être une communauté : il aspire à devenir une grande nation et met tout en œuvre pour y parvenir. Participez à cette aventure et rejoignez la capitale !</h2>
+        <a href="https://discord.gg/sf6gfEkJgu" target="_blank" class="cta-button" id="button1">Rejoignez-nous</a>
+        <h3 class="title" id="title2">RETROUVEZ-NOUS SUR TOUTES NOS <span class="highlight">PLATEFORMES</span></h3>
+        
+        <div class="card" id="card1">
+            <img src="images/logo_insta.png" alt="Logo Instagram" class="card-image">
+            <div class="card-content">
+                <div>
+                    <h3 class="title" id="card-title">Instagram</h3>
+                </div>
+                <div class="cta-card-container">
+                    <a href="https://instagram.com/the_gigachad_account/" target="_blank" class="cta-button2">Voir</a>
+                </div>
+            </div>
+        </div>
+        <div class="card" id="card2">
+            <img src="images/logo_tiktok.png" alt="Logo Tiktok" class="card-image">
+            <div class="card-content">
+                <div>
+                    <h3 class="title" id="card-title">Tiktok</h3>
+                </div>
+                <div class="cta-card-container">
+                    <a href="https://www.tiktok.com/@the_gigachad_account_" target="_blank" class="cta-button2">Voir</a>
+                </div>
+            </div>
+        </div>
+        <div class="card" id="card3">
+            <img src="images/logo_whatsapp.png" alt="Logo Tiktok" class="card-image">
+            <div class="card-content">
+                <div>
+                    <h3 class="title" id="card-title">Whatsapp</h3>
+                </div>
+                <div class="cta-card-container">
+                    <a href="https://whatsapp.com/channel/0029VaXa2tt4dTnT24A20b2l" target="_blank" class="cta-button2">Voir</a>
+                </div>
+            </div>
+        </div>
+        <div class="card" id="card4">
+            <img src="images/logo_youtube.webp" alt="Logo Youtube" class="card-image">
+            <div class="card-content">
+                <div>
+                    <h3 class="title" id="card-title">Youtube</h3>
+                </div>
+                <div class="cta-card-container">
+                    <a href="https://www.youtube.com/@The-Gigachad/" target="_blank" class="cta-button2">Voir</a>
+                </div>
+            </div>
+        </div>
+        
+        <h4 class="title" id="title3">DEVENEZ <span class="highlight">DÈS MAINTENANT</span>
+        CITOYEN DU CHADISTAN</h4>
+        
+        <div class="form-container">
+            <form id="certificateForm" method="post" class="signup-form">
+                <input type="text" id="name" name="name" class="form-input" placeholder="Votre nom" autocomplete="name" required>
+                <input type="email" id="email" name="email" class="form-input" placeholder="Votre email" autocomplete="email" required>
+                <button type="submit" class="form-button">Envoyer</button>
+            </form>
+            <canvas id="certificateCanvas" style="display: none;"></canvas>
+        </div>
+        
+        <!--<h5 class="title" id="title4">NOS PRODUITS <span class="highlight">100% </span>CHADISTANAIS</h5>
+
+        <div class="horizontal-scroll-container">
+            <div class="portrait-card">
+                <img src="images/logo_vetements.jpg" alt="Sample Image 1" class="portrait-card-image">
+                <div class="portrait-card-content">
+                    <h3 class="portrait-card-title">Casquette</h3>
+                    <a href="lien-vers-achat" target="_blank" class="buy-button">Acheter</a>
+                </div>
+                <div class="portrait-card-footer">
+                    <p class="color-info">Disponible en plusieurs couleurs</p>
+                </div>
+            </div>
+            <div class="portrait-card">
+                <img src="images/logo_vetements.jpg" alt="Sample Image 2" class="portrait-card-image">
+                <div class="portrait-card-content">
+                    <h3 class="portrait-card-title">Bonnet</h3>
+                    <a href="lien-vers-achat" target="_blank" class="buy-button">Acheter</a>
+                </div>
+                <div class="portrait-card-footer">
+                    <p class="color-info">Disponible en plusieurs couleurs</p>
+                </div>
+            </div>
+            <div class="portrait-card">
+                <img src="images/logo_vetements.jpg" alt="Sample Image 3" class="portrait-card-image">
+                <div class="portrait-card-content">
+                    <h3 class="portrait-card-title">Sweat</h3>
+                    <a href="lien-vers-achat" target="_blank" class="buy-button">Acheter</a>
+                </div>
+                <div class="portrait-card-footer">
+                    <p class="color-info">Disponible en plusieurs couleurs</p>
+                </div>
+            </div>
+            <div class="portrait-card">
+                <img src="images/logo_vetements.jpg" alt="Sample Image 4" class="portrait-card-image">
+                <div class="portrait-card-content">
+                    <h3 class="portrait-card-title">T-shirt</h3>
+                    <a href="lien-vers-achat" target="_blank" class="buy-button">Acheter</a>
+                </div>
+                <div class="portrait-card-footer">
+                    <p class="color-info">Disponible en plusieurs couleurs</p>
+                </div>
+            </div>
+            <div class="portrait-card">
+                <img src="images/logo_vetements.jpg" alt="Sample Image 5" class="portrait-card-image">
+                <div class="portrait-card-content">
+                    <h3 class="portrait-card-title">Bracelet</h3>
+                    <a href="lien-vers-achat" target="_blank" class="buy-button">Acheter</a>
+                </div>
+                <div class="portrait-card-footer">
+                    <p class="color-info">Disponible en plusieurs couleurs</p>
+                </div>
+            </div>
+        </div>
+        <a href="boutique.html" class="cta-button" id="cta-boutique">Voir tout</a>-->
+        
+        <h5 class="title" id="title8">NOS JEUX <span class="highlight">GRATUITS </span>EN LIGNES</h5>
+        <div class="card" id="card5">
+            <img src="images/icone-flppy-chad.png" alt="Logo Tiktok" class="card-image">
+            <div class="card-content">
+                <div>
+                    <h3 class="title" id="card-title">Flappy chad</h3>
+                </div>
+                <div class="cta-card-container">
+                    <a href="flappy-chad.html" class="cta-button2">Jouer</a>
+                </div>
+            </div>
+        </div>
+        <div class="card" id="card6">
+            <img src="images/icone-chadfall.png" alt="Logo Tiktok" class="card-image">
+            <div class="card-content">
+                <div>
+                    <h3 class="title" id="card-title">Chadfall</h3>
+                </div>
+                <div class="cta-card-container">
+                    <a href="Chadfall.html" class="cta-button2">Jouer</a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <footer class="footer">
+        <br>
+        <br>
+        <br>
+        <h1 class="header-title">CHADISTAN</h1>
+        <h2 class="subtitle">Pays du Gigachad</h2>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="gigachad-text">
+            <span>G</span><span>I</span><span>G</span><span>A</span><span>C</span><span>H</span><span>A</span><span>D</span>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a style='text-decoration: none; font-size: 14px; display: inline-block; color: rgba(200, 200, 255, 0.1);' href="infos.html">Informations Légales</a>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+</body>
+</html>
